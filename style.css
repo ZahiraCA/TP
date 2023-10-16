@@ -1,0 +1,99 @@
+*{
+  font-size:1.02em ;}
+
+h2{
+  text-align: center;
+  font-family: 'Young Serif', serif,'Roboto Slab', serif;
+  text-shadow: 0.1em 0.1em 0.2em  orange;
+  font-size: 2.5em;
+}
+
+
+h3{
+  text-align: center;
+  font-family: 'Young Serif', serif,'Roboto Slab', serif;
+  text-shadow: 0.1em 0.1em 0.2em  orange;
+  font-size: 2em;
+}
+
+/*Recomendaciones */
+.recomendacion_{
+  background-image: url("../Imagenes/chocolate2.jpg") gold;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reco{
+    aspect-ratio: 2/1;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.reco img{
+    width: 100%;
+    border-radius: 5%;
+    position: sticky;
+    object-fit: cover;
+}
+
+/* Productos */
+.product_{
+  background-image: url("../Imagenes/chocolate.jpg") lightgoldenrodyellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.misterio_ img{
+  border-radius:5%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0.1em 1em rgb(241, 181, 14);
+}
+.contenedor {
+    position: relative;
+    width: 20.5%;
+    height: 7.5cm;
+    display:inline-block;
+    margin: 0.7em;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    border-radius: 2%;
+    height: auto;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gold;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 2%;
+}
+  
+.contenedor:hover .overlay {
+    width: 100%;
+}
+  
+.texto {
+    color: white;
+    font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+ 
+  
+
